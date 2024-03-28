@@ -1,0 +1,16 @@
+type Item {
+  id: ID!
+  name: String!
+  price: String!
+  category: String!
+}
+
+type Query {
+  getItems: [Item!]!
+}
+
+type Mutation {
+  createItem(name: String!, price: String!, category: String!): Item!
+  updateItem(id: ID!, name: String!, price: String!, category: String!): Item!
+  deleteItem(id: ID!): Item!
+}
