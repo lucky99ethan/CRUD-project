@@ -108,7 +108,7 @@ const CrudComponent: React.FC = () => {
           type="text"
           value={inputPrice}
           onChange={handlePriceChange}
-          placeholder="Enter the price"
+          placeholder="Enter the prices"
           className="p-2 border border-gray-300 rounded mr-2"
         />
         {editingItem !== null ? (
