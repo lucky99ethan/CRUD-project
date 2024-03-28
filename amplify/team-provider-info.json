@@ -14,6 +14,9 @@
     "categories": {
       "api": {
         "crudproject": {}
+      },
+      "auth": {
+        "crudproject481db1fa": {}
       }
     }
   }
